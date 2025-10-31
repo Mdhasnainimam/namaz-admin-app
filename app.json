@@ -6,11 +6,11 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-  "splash": {
-  "image": "./assets/splash.png",
-  "resizeMode": "contain",
-  "backgroundColor": "#ffffff"
-},
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -22,6 +22,9 @@
       "eas": {
         "projectId": "0defaa54-cafa-4f46-a16b-d7e7b722d7ac"
       }
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
