@@ -1,3 +1,5 @@
+import 'react-native-gesture-handler';
+import 'react-native-worklets';
 import React, { useState, useEffect } from 'react';
 import {
   View,
