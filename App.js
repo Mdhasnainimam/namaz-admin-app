@@ -16,6 +16,20 @@ import {
 } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import { getLocales } from 'expo-localization';  // Tune already install kiya hai
+
+// Initialize (ek baar karo, e.g., App.js mein)
+i18n.use(initReactI18next).init({
+  compatibilityJSON: 'v3',
+  lng: getLocales()[0].languageCode,
+  fallbackLng: 'en',
+  resources: {
+    en: { translation: { hello: 'Hello' } },  // Apne translations daalo
+    // Add more languages
+  },
+});
 
 const App = () => {
   // ────── Auth State (ADD) ──────
