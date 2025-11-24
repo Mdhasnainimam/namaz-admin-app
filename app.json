@@ -16,7 +16,7 @@
     ],
     "android": {
       "package": "com.md_hasnain_imam.namazadminapp",
-      "versionCode": 6
+      "versionCode": 7
     },
     "extra": {
       "eas": {
