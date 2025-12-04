@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Privacy Policy</title></head>
+<body>
+<h1>Privacy Policy - Namaz Admin App</h1>
+<p>Last updated: November 5, 2025</p>
+<p>We collect location to show prayer times. Data stays on your phone only.</p>
+<p>No ads. No tracking. No sharing.</p>
+<p>Email: hasnainimam2026@gmail.com</p>
+</body>
+</html>
